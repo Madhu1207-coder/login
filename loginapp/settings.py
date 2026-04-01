@@ -1,6 +1,10 @@
 SECRET_KEY = 'dev-secret-key'
 DEBUG = False
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "login-2-mtcp.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
